@@ -22,7 +22,7 @@
         if (isset($_POST['rr'])) {
             $check = $_POST['rr'];
             if ($check == "Admin") {
-              /*   include 'classes/user.php';
+                /*   include 'classes/user.php';
                 $un = $_POST['userName'];
                 $pas = $_POST['password'];
 
@@ -41,7 +41,6 @@
 
                             </script>';
                 } */
-                
             } else {
                 if ($check == "custommer") {
                     /* include 'classes/user.php';
