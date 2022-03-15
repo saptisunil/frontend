@@ -18,6 +18,7 @@
     <?php
 
     if (isset($_POST['submit'])) {
+        header("Location: routes/monitor.php");
         if (isset($_POST['rr'])) {
             $check = $_POST['rr'];
             if ($check == "Admin") {
@@ -40,7 +41,7 @@
 
                             </script>';
                 } */
-                header("Location: routes/monitor.php");
+                
             } else {
                 if ($check == "custommer") {
                     /* include 'classes/user.php';
@@ -62,7 +63,6 @@
 
                             </script>';
                     } */
-                    header("Location: routes/monitor.php");
                 }
             }
         }
