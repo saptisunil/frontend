@@ -1,0 +1,101 @@
+.system-noti{
+    margin-top:10px;
+    padding-left:15px;
+}
+#system-col{
+    background-color:#dee2e6;
+    border-color:#dee2e6;
+    padding-left:10px;
+}
+.btn-primary{
+    margin-left:10px;
+}
+.system-table-body{
+   background-color:#dee2e6;
+}
+.toggle-btn{
+    color:white !important;
+    background-color:grey;
+    border:1px solid grey;
+    font-size:12px;
+}
+.toggle-btn:hover{
+    color:white !important;
+    font-weight:bold;
+    font-size:12px;
+}
+.centered-btn{
+    text-align:center;
+    margin-top:20px;
+}
+.save-button{
+    padding:5px;
+    background-color:#03508e;
+    color:white;
+}
+.email-system{
+    color:grey;
+    background-color:#dee2e6;
+    border:1px solid grey;
+    width:200px;
+    margin-left:10px;
+}
+#email-1{
+    margin-left:14px;
+}
+#email-2{
+    margin-left:27px;
+}
+#email-3{
+    margin-left:52px;
+}
+.system-logo{
+    display:inline-flex;
+    margin-top:10px;
+}
+.system-label{
+    text-align:right;
+    width:500px;
+    margin-right:10px;
+}
+.myfile{
+    background-color:#03508e;
+    color:white;
+    padding:3px;
+}
+.mycheckbox{
+    background-color:grey;
+    color:grey;
+}
+#import-btn1{
+    margin-left:18px;
+}
+#import-btn2{
+    margin-left:10px;
+}
+.system-notifi{
+   margin-left:20px;
+   margin-top:7px;
+}
+.system-des{
+    display:inline-flex;
+    width:350px;
+}
+.mytext{
+    width:350px;
+    border:1px solid grey;
+    background-color:lightgrey;
+    color:black;
+    padding-left:8px;
+}
+.system-label{
+    text-align:right;
+}
+.system-imp{
+    color:red;
+    font-size:11px;
+}
+.system-select1{
+    width:350px;
+    background-color:lightgrey;
+}
