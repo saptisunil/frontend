@@ -21,11 +21,12 @@
     ?>
 
     <div class="container">
-      <div class="p-1 rounded text-center mt-3 bg--primary header1">
-        <h3 class="main-header">SYSTEM CONFIGURATION</h3>
+      <div class="p-1 rounded text-center mt-3 bg--primary header1" id="device-head">
+        <h3 class="main-header" id="main-head">DEVICE MAINTAINANCE - ACTIVE DEVICES</h3>
+        <button class="save-button" id="import-btn3" type="button">Show Me How</button>
       </div>
       <?php  
-      require('../components/system-table/systemTable.php')
+      require('../components/device-table/deviceTable.php')
       ?>
     </div>
   </div>
