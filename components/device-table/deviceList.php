@@ -1,3 +1,4 @@
+<!-- Devices List content -->
                     <div class="devices" id="devices" data-color="blue"> 
                         <div class="each-device">
                             <i class="fa fa-apple fa-3x"></i>
@@ -59,4 +60,3 @@
                             <p class="device-num">82FFE525-9130-432B-81F7-1CF2FFFAC954</p>
                             <p class="device-version">v4.1.30</p>
                         </div>
-</div>

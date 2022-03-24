@@ -4,14 +4,18 @@ window.onclick = function(event) {
       document.getElementById("myModal").style.display = "none";
     }
 }
+//to open the modal popup when "Add Number" button is clicked
 function openModal(){
     document.getElementById('myModal').style.display = "block";
 }
+
 $(document).ready(function(){
+    // when the device list is clicked, to fill up the form
     $("#devices").click(function () {
         $(this).css('background',$(this).attr('data-color'));
         handleClick()
     });
+    // when the select drop down value is clicked, to fill up the form
     $('#device-selection').change(function(){ 
         var value = $(this).val();
         if(value=="(737) 346-2748 Abubaker"){
@@ -19,6 +23,7 @@ $(document).ready(function(){
         }
     });
 });
+// to handle display the input values of the form
 function handleClick(){
         $('#status').val("Device Approved");
         $("#status").css('background',$("#status").attr('data-color'));

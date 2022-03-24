@@ -1,3 +1,4 @@
+<!-- Email tab contents -->
 <div>
         <div class="system-noti">
             <p>Due to increasing email/spam enforecment policies, all emails will be sent On Behalf of.</p>

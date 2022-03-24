@@ -1,3 +1,4 @@
+<!-- Device Form content -->
 <div class="device-bform">
                 <div class="device-form"> 
                     <div class="label-div">

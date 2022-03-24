@@ -12,6 +12,7 @@
               <input type="checkbox">
               <label>Include Inactive Devices </label>
             </div>
+            <!-- Device form body -->
             <div class="device-right"> 
                 <select class="bg-grey system-select3" aria-label="property name" id="device-selection">
                   <option selected>Choose</option>
@@ -41,6 +42,7 @@
     </div>
   </div>
 </div>
+<!-- Add Modal display -->
 <div id="myModal" class="modal">
   <div class="modal-content">
     <p class="modal-header">Add/Edit Phone Number </p>
