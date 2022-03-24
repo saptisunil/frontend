@@ -1,4 +1,4 @@
-<div class="devices"> 
+                    <div class="devices" id="devices" data-color="blue"> 
                         <div class="each-device">
                             <i class="fa fa-apple fa-3x"></i>
                             <p class="approved">Approved </p>

@@ -13,12 +13,12 @@
               <label>Include Inactive Devices </label>
             </div>
             <div class="device-right"> 
-                <select class="bg-grey system-select3" aria-label="property name">
+                <select class="bg-grey system-select3" aria-label="property name" id="device-selection">
                   <option selected>Choose</option>
                   <option value="(737) 346-2748 Abubaker">(737) 346-2748 Abubaker</option>
                   <option value="(+1) (61-2) 4 Porter">(+1) (61-2) 4 Porter</option>
                 </select>
-                <button class="save-button1" id="btn4" type="button" onClick="openModal()">Add Number</button>
+                <button class="save-button" id="btn4" type="button" onClick="openModal()">Add Number</button>
             </div>
           </div>
           <div class="device-body"> 
@@ -49,6 +49,7 @@
      <input type="number" placeholder="" class="mytext-2">
      <label>Phone Number Description</label>
      <input type="text" placeholder="" class="mytext-2"> 
+     <button class="save-button" id="import-btn5" type="button">Add</button>
   </div>
   </div>
 </div>

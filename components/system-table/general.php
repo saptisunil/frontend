@@ -109,14 +109,14 @@
         <div class="system-des">
             <label class="system-label">Home Page Message</label>
         </div>
-        <textarea id="mytextfield" class="bg-grey" rows="4" cols="50">Welcome to the <b> Falcon Patrol Protection</b> reporting page presented by Silvertrac Software.Using Silvertrac Software Falcon Patrol Protection can receive and respond to security issues in real-time by using a smartphone or tablet.</textarea>
+        <textarea id="mytextfield" class="bg-grey" rows="4" cols="100">Welcome to the <b> Falcon Patrol Protection</b> reporting page presented by Silvertrac Software.Using Silvertrac Software Falcon Patrol Protection can receive and respond to security issues in real-time by using a smartphone or tablet.</textarea>
         
     </div>
     <div class="system-notifi">
         <div class="system-des">
             <label class="system-label">Mobile Device Login Message</label>
         </div>
-        <textarea class="bg-grey" rows="4" cols="52"></textarea>
+        <textarea class="bg-grey" rows="4" cols="100"></textarea>
     </div>
     <div class="system-notifi">
         <div class="system-des">
@@ -128,16 +128,24 @@
         <div class="system-des">
             <label class="system-label">Property Finder Example Text</label>
         </div>
-        <textarea class="bg-grey" rows="4" cols="52">Please select a city to continue</textarea>
+        <textarea class="bg-grey" rows="4" cols="100">Please select a city to continue</textarea>
     </div>
     <div class="system-notifi">
         <div class="system-des">
-            <label class="system-label">Home Page Message</label>
+            <label class="system-label">External URL Links</label>
         </div>
-        <textarea class="bg-grey" rows="9" cols="52">https://falcon.silvertracker.net?LinkAction=SECURITYISSUE   https://falcon.silvertracker.net?LinkAction=MAINTENANCEISSUE   https://falcon.silvertracker.net?LinkAction=LOGIN Advanced Parking Program Only: https://falcon.silvertracker.net?LinkAction=PARKINGISSUE   https://falcon.silvertracker.net?LinkAction=NEWPERMIT   https://falcon.silvertracker.net?LinkAction=PAYAPPEAL   https://falcon.silvertracker.net?LinkAction=TEMPORARYPERMIT
+        <textarea class="bg-grey" rows="11" cols="100"> https://falcon.silvertracker.net?LinkAction=SECURITYISSUE   
+ https://falcon.silvertracker.net?LinkAction=MAINTENANCEISSUE   
+ https://falcon.silvertracker.net?LinkAction=LOGIN 
+            
+ Advanced Parking Program Only: 
+ https://falcon.silvertracker.net?LinkAction=PARKINGISSUE   
+ https://falcon.silvertracker.net?LinkAction=NEWPERMIT   
+ https://falcon.silvertracker.net?LinkAction=PAYAPPEAL  
+ https://falcon.silvertracker.net?LinkAction=TEMPORARYPERMIT
         </textarea>
     </div>
     <div class="centered-btn">
-        <button class="save-button" type="button">Save Config Settings</button>
+        <button class="save-button" id="btn-6" type="button">Save Config Settings</button>
     </div>
 </div>

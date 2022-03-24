@@ -8,12 +8,13 @@
     padding-left:10px;
     padding-top:10px;
 }
-.btn-primary{
-    margin-left:10px;
+.btn-primary{ margin-left:10px; }
+#btn-6{
+    margin-left:-100px;
+    font-weight:500;
+    font-size:16px;
 }
-.system-table-body1{
-   background-color:#dee2e6; 
-}
+.system-table-body1{ background-color:#dee2e6; }
 .toggle-btn{
     color:white !important;
     background-color:grey !important;
@@ -52,9 +53,9 @@
     padding-right:1rem !important;
     padding-left:1rem !important;
     border-radius:0.25rem;
-    background-color:#0d6efd;
+    background-color:#03508e;
     color:white;
-    border:1px solid #0d6efd;
+    border:1px solid #03508e;
 }
 .email-system{
     color:grey;
@@ -63,15 +64,9 @@
     width:200px;
     margin-left:10px;
 }
-#email-1{
-    margin-left:14px;
-}
-#email-2{
-    margin-left:27px;
-}
-#email-3{
-    margin-left:52px;
-}
+#email-1{ margin-left:14px;}
+#email-2{ margin-left:27px;}
+#email-3{ margin-left:52px;}
 .system-logo{
     display:inline-flex;
     margin-top:10px;
@@ -90,11 +85,11 @@
     background-color:grey;
     color:grey;
 }
-#import-btn1{
-    margin-left:18px;
-}
+#import-btn1{ margin-left:18px;}
 #import-btn2{
     margin-left:10px;
+    height:25px;
+    font-size:14px;
 }
 .system-notifi{
    margin-left:20px;
@@ -111,59 +106,44 @@
     color:#9b9896;
     padding-left:8px;
 }
-.system-label{
-    text-align:right;
-}
+.system-label{ text-align:right; }
 .system-imp{
     color:red;
     font-size:11px;
 }
-.system-select1{
-    width:350px;
-}
+.system-select1{ width:350px;}
 #mytextfield{
    overflow:scroll;
-   width: 350px;
-   height: 110px;
+   width: 650px;
+   height: 70px;
 }
 .bg-grey{
     background-color:#ececec;
     color:#9b9896;
 }
-textarea {
-    vertical-align: middle;
-}
-.header1{
-    background-color:#f1f1f1 !important;
-}
-.d-block{
-    background-color:#e6e6e6;
-}
-#text1{
-    background-color:#caced2;
-}
-#device-head{
-    display:flex;
-}
+textarea {vertical-align: middle;}
+.header1{background-color:#f1f1f1 !important;}
+.d-block{background-color:#e6e6e6;}
+#text1{background-color:#caced2;}
+#device-head{display:flex;}
 #import-btn3{
     position:relative;
     left:680px !important;
+    height:25px;
+    margin-top:5px;
+    font-size:12px;
 }
 .main-header{
     color:grey;
     text-align:center;
 }
-#main-head{
-    transform:translateX(350px);
-}
+#main-head{ transform:translateX(350px);}
 .device-inline{
     display:flex;
     margin-top:-5px;
     font-size:15px;
 }
-.deviceTable-head{
-    transform:translateX(900px);
-}
+.deviceTable-head{ transform:translateX(900px);}
 .mytext-1{
     width:350px;
     height:30px;
@@ -178,12 +158,8 @@ textarea {
     border:1px solid #d6dfe0;
     transform:translateX(100px);
 }
-.next-device{
-    margin-top:-10px;
-}
-.device-right{
-    transform:translateX(330px);
-}
+.next-device{margin-top:-10px;}
+.device-right{transform:translateX(330px);}
 .system-select3{
     height:30px;
     width:210px;
@@ -191,21 +167,12 @@ textarea {
     background-color:#d6dfe0;
     border:1px solid #d6dfe0;
 }
-.save-button1{
-    padding-right:1rem !important;
-    padding-left:1rem !important;
-    border-radius:0.25rem;
-    background-color:#0d6efd;
-    color:white;
-    border:1px solid #0d6efd;
-    height:30px;
-}
 #btn4{
     margin-left:40px;
+    height:30px;
+    font-size:16px;
 }
-.device-middle{
-    margin-left:15px;
-}
+.device-middle{margin-left:15px;}
 .device-bheader{
     color:#AE0000;
     font-weight:500;
@@ -224,7 +191,6 @@ textarea {
     float:right;
     width:750px;
     padding:10px;
-   /* text-align:right; */
 }
 .device-list{
     padding:10px;
@@ -241,15 +207,16 @@ textarea {
     display:inline-flex;
     height:90px;
 }
+.devices:hover{background-color:blue;}
+.devices:active{background-color:blue !important;}
+.devices:focus{background-color:blue !important;}
 .greeniconcolor {color:#aac148;}
 .approved{
     color:green;
     font-weight:500;
     font-size:15px;
 }
-.each-device{
-    margin: 10px;
-}
+.each-device{margin: 10px;}
 .device-version{
     margin-top:-15px;
     color:orange;
@@ -264,7 +231,7 @@ textarea {
     align-items:center;
     justify-content:center;
 }
-.android{  text-align:right; margin:10px; }
+.android{text-align:right; margin:10px;}
 #android1{transform:translateX(160px);}
 #android2{transform:translateX(240px);}
 .model-name{margin-top:-10px;}
@@ -273,13 +240,13 @@ textarea {
     height:40px;
     background-color:#caced2;
     border:1px solid grey;
+    padding-left:10px;
 }
-.device-form{
-    margin-bottom:8px;
-}
+.device-form{margin-bottom:8px;}
 .device-label{
     font-size:15px;
     margin-right:5px;
+    transform:translateY(10px);
 }
 .device-bform{
     margin-right:33px;
@@ -293,24 +260,23 @@ textarea {
 .imp{
     color:#AE0000;
     font-weight:500;
+    transform:translateY(12px) !important;
 }
 .my-check{
     float:left;
-    transform:translateY(7px);
+    transform:translateY(15px) !important;
     margin-right:5px;
 }
-#barcode{
-    transform:translateY(15px);
-}
+#barcode{transform:translateY(15px);}
 #imp2{
     transform:translateX(220px);
+    margin-top:15px;
+    margin-bottom:10px;
+    color:#AE0000;
+    font-weight:500;
 }
-.btn-5{
-    transform:translateX(220px);
-}
-.checker{
-    margin-bottom:15px;
-}
+.btn-5{transform:translateX(220px);}
+.checker{margin-bottom:15px;}
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -328,11 +294,15 @@ textarea {
 .modal-content {
     background-color:#dee2e6;
     margin: auto;
-    /* padding: 20px; */
     padding: 20px;
     border: 1px solid #888;
     width: 475px;
     text-align:center;
+}
+#import-btn5{
+    width:60px;
+    margin-top:15px;
+    transform:translateX(185px);
 }
 .modal-body{
     background-color:#f1f1f1;
@@ -340,7 +310,7 @@ textarea {
     margin-top:-50px;
     padding:20px;
     width: 472px;
-    height:150px;
+    height:200px;
     transform:translateY(20px);
     border-radius:5px;
     display:grid;
@@ -361,4 +331,9 @@ textarea {
     margin-top:-15px;
     margin-bottom:28px;
     margin-left:80px;
+}
+#status{
+    text-align:center;
+    color:white;
+    font-weight:500;
 }
